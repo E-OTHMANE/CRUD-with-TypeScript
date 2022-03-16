@@ -1,0 +1,64 @@
+<div id="app" onloadeddata="showItems()">
+  <div class="container">
+    <div>
+      <h2>Add sections</h2>
+      <label>Name :</label>
+      <input
+        type="text"
+        id="txtInput"
+        value=""
+        placeholder="Enter your char here"
+      />
+      <button type="submit" id="btnAdd">Add</button>
+      <button type="submit" id="btnDelete">Delete</button>
+    </div>
+    <div>
+      <h2>Update Section</h2>
+      <label>Old Name :</label>
+      <input
+        type="text"
+        id="txtOldName"
+        placeholder="Entre the name to Update"
+      />
+      <br />
+      <label>New Name :</label>
+      <input
+        type="text"
+        id="txtNewName"
+        value=""
+        placeholder="Entrer the new Name"
+      />
+      <button type="submit" id="btnUpdate">Update</button>
+    </div>
+    <div>
+      <h2>Search by name constains :</h2>
+      <input type="text" id="txtSearch" value=""" placeholder="Enter your char
+      here" />
+      <button type="submit" id="btnSearch">Search</button>
+      <h2>Search results</h2>
+      <div id="searchList"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      <h2>Show sections</h2>
+      <label>Index :</label>
+      <input type="text" id="txtId" placeholder="Entre an index here" />
+      <br />
+      <label>Name :</label>
+      <input
+        type="text"
+        id="txtShow"
+        value=""
+        placeholder="The output will be here"
+        disabled="true"
+      />
+      <button type="submit" id="btnShow">Show</button>
+    </div>
+
+    <div>
+      <h2>All items in the list</h2>
+      <div id="listItems"></div>
+    </div>
+  </div>
+</div>
